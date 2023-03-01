@@ -1,0 +1,927 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../auto_install/">
+      
+      
+        <link rel="next" href="../../box/box/">
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
+    
+    
+      
+        <title>Ручная установка - WEGA-project</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.113286f1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="WEGA-project" class="md-header__button md-logo" aria-label="WEGA-project" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WEGA-project
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ручная установка
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="WEGA-project" class="md-nav__button md-logo" aria-label="WEGA-project" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
+
+    </a>
+    WEGA-project
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Описание
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          WEGA Server
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          WEGA Server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        Как настроить
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../auto_install/" class="md-nav__link">
+        Установка через скрипт
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Ручная установка
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Ручная установка
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wega-server" class="md-nav__link">
+    Ручная установка и конфигурирование WEGA Server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Подготовка компонентов
+  </a>
+  
+    <nav class="md-nav" aria-label="Подготовка компонентов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega-server_1" class="md-nav__link">
+    Установка необходимых пакетов для работы WEGA server
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Настройка базы данных
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wega" class="md-nav__link">
+    Настройка WEGA
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройка WEGA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega-gui" class="md-nav__link">
+    Настройка WEGA GUI
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройка WEGA GUI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega_1" class="md-nav__link">
+    Загрузка последней версии проекта WEGA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    Настройка web сервера
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web_1" class="md-nav__link">
+    Настройка авторизации для доступа к WEB консоли
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wega_2" class="md-nav__link">
+    Настройка доступа сервера WEGA к базе данных
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wega-api" class="md-nav__link">
+    Настройка WEGA-API
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройка WEGA-API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega-api_1" class="md-nav__link">
+    Настраиваем подключение к базе данных для WEGA-API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-api-api" class="md-nav__link">
+    ⚠️ ВАЖНО: Один ключ = один api. Много устройств могут использовать один api, но можно создавать много api для разных устройств.  ⚠️
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ ВАЖНО: Один ключ = один api. Много устройств могут использовать один api, но можно создавать много api для разных устройств.  ⚠️">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-post" class="md-nav__link">
+    Проверка API post 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#owm-log" class="md-nav__link">
+    Подключение погодного модуля OWM-LOG 
+  </a>
+  
+    <nav class="md-nav" aria-label="Подключение погодного модуля OWM-LOG ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Установка 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          WEGABOX
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          WEGABOX
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../box/box/" class="md-nav__link">
+        Описание
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wega-server" class="md-nav__link">
+    Ручная установка и конфигурирование WEGA Server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Подготовка компонентов
+  </a>
+  
+    <nav class="md-nav" aria-label="Подготовка компонентов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega-server_1" class="md-nav__link">
+    Установка необходимых пакетов для работы WEGA server
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Настройка базы данных
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wega" class="md-nav__link">
+    Настройка WEGA
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройка WEGA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega-gui" class="md-nav__link">
+    Настройка WEGA GUI
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройка WEGA GUI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega_1" class="md-nav__link">
+    Загрузка последней версии проекта WEGA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    Настройка web сервера
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web_1" class="md-nav__link">
+    Настройка авторизации для доступа к WEB консоли
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wega_2" class="md-nav__link">
+    Настройка доступа сервера WEGA к базе данных
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wega-api" class="md-nav__link">
+    Настройка WEGA-API
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройка WEGA-API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wega-api_1" class="md-nav__link">
+    Настраиваем подключение к базе данных для WEGA-API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-api-api" class="md-nav__link">
+    ⚠️ ВАЖНО: Один ключ = один api. Много устройств могут использовать один api, но можно создавать много api для разных устройств.  ⚠️
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ ВАЖНО: Один ключ = один api. Много устройств могут использовать один api, но можно создавать много api для разных устройств.  ⚠️">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-post" class="md-nav__link">
+    Проверка API post 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#owm-log" class="md-nav__link">
+    Подключение погодного модуля OWM-LOG 
+  </a>
+  
+    <nav class="md-nav" aria-label="Подключение погодного модуля OWM-LOG ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Установка 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">Ручная установка</h1>
+<h2 id="wega-server">Ручная установка и конфигурирование WEGA Server</h2>
+<p>Первое что делаем это обновляем систему до последнего состояния:</p>
+<pre><code># эта команда повышает права в консоли для выполнения всех остальных дейтсвий
+sudo su  
+
+apt update
+apt dist-upgrade
+</code></pre>
+<p>После обновления выполняем перезагруку командой <code>reboot</code></p>
+<hr />
+<h2 id="_2">Подготовка компонентов</h2>
+<h3 id="wega-server_1">Установка необходимых пакетов для работы WEGA server</h3>
+<pre><code class="language-bash">apt install lamp-server^ php-curl gnuplot-nox curl
+</code></pre>
+<h3 id="_3">Настройка базы данных</h3>
+<p>Задаем мастер пароль для <code>MYSQL</code>, который позволит создавать новые базы</p>
+<pre><code class="language-bash">mysql
+</code></pre>
+<pre><code class="language-mysql">ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YOUR_PASSWORD_HERE';
+FLUSH PRIVILEGES;
+SET GLOBAL log_bin_trust_function_creators = 1;
+quit;
+</code></pre>
+<p>Пароль должен быть сложным (содержать буквы в разном регистре, цифры и знаки)</p>
+<p>Для корректной работы необходимо добавить в конец <code>mysqld.cnf</code> дополнительный параметр:</p>
+<p><code>echo "log-bin-trust-function-creators = 1" &gt;&gt; /etc/mysql/mysql.conf.d/mysqld.cnf</code></p>
+<hr />
+<h2 id="wega">Настройка WEGA</h2>
+<p><code>WEGA-GUI</code> - это непосредственно графическая среда с отображением параметров и графиков устройств.</p>
+<p>По умолчанию она доступна по адресу: <code>http://WEGA_SERVER_IP/wega</code></p>
+<h3 id="wega-gui">Настройка WEGA GUI</h3>
+<h4 id="wega_1">Загрузка последней версии проекта WEGA</h4>
+<pre><code class="language-bash">apt install git
+cd /var
+git clone https://github.com/WEGA-project/WEGA.git
+chown www-data:www-data -R /var/WEGA
+</code></pre>
+<h4 id="web">Настройка web сервера</h4>
+<pre><code class="language-bash">ln -s /var/WEGA/apache/WEGA.conf /etc/apache2/conf-enabled/
+ln -s /var/WEGA/apache/wega-api.conf /etc/apache2/conf-enabled/
+
+/etc/init.d/apache2 restart
+</code></pre>
+<h4 id="web_1">Настройка авторизации для доступа к WEB консоли</h4>
+<ul>
+<li>Удаляем доступ без авторизации (если был настроен):
+<code>rm /etc/apache2/conf-enabled/WEGA.conf</code></li>
+<li>Создаем пользователя и пароль:
+<code>htpasswd -c /etc/apache2/.htpasswd username</code>
+ где username это логин</li>
+<li>Подключаем конфигурацию требующую авторизацию для доступа к страничке
+<code>ln -s /var/WEGA/apache/WEGA-auth.conf /etc/apache2/conf-enabled/</code></li>
+<li>Перезапускаем web сервер
+<code>/etc/init.d/apache2 restart</code></li>
+</ul>
+<h4 id="wega_2">Настройка доступа сервера <code>WEGA</code> к базе данных</h4>
+<pre><code class="language-bash">cp /var/WEGA/example.db.php /var/WEGA/db.php
+nano /var/WEGA/db.php
+</code></pre>
+<p>Вносим пароль заданный на этапе настройки базы данных</p>
+<hr />
+<h3 id="wega-api">Настройка WEGA-API</h3>
+<p><code>WEGA-API</code> - отвечает за получение данных от контроллеров сбора показаний сенсоров. Контроллеры подключаются к ней и передают измеренные значения. </p>
+<p>Каждому контроллеру соответствует свой файл api в котором указана база для записи данных и параметры подключения к ней.</p>
+<h4 id="wega-api_1">Настраиваем подключение к базе данных для WEGA-API</h4>
+<p>Отредактируем файл примера:</p>
+<p>указываем параметры подключения к базе для записи данных.</p>
+<p>Создадим файл доступа к wega-api из файла примера:</p>
+<pre><code class="language-bash">cp /var/WEGA/example/wega-api/wegabox.php.example /var/WEGA/wega-api/wegabox.php
+nano /var/WEGA/wega-api/wegabox.php
+</code></pre>
+<p>Тут главная задача, отредактировать строку, поменяв ключ доступа на свой. Этот ключи будет использовать устройство при отправке данных на сервер. 
+$auth="73ad7a1144dfc58eb2585cde8a0f7a948338";</p>
+<h2 id="api-api-api">⚠️ <strong>ВАЖНО: Один ключ = один api. Много устройств могут использовать один api, но можно создавать много api для разных устройств. </strong> ⚠️</h2>
+<h3 id="api-post">Проверка API post <a name="api_check"></a></h3>
+<p>Выполним в браузере:</p>
+<p><code>http://WEGA_SERVER_IP/wega-api/wegabox.php?auth=adab637320e5c47624cdd15169276981&amp;db=esp32wega&amp;RootTemp=25&amp;AirTemp=25&amp;AirHum=50</code></p>
+<p>где 
+* <code>ip-address-server</code> это адрес сервера</p>
+<ul>
+<li>
+<p><code>auth=adab637320e5c47624cdd15169276981</code> код доступа к <code>api</code> (должен быть задан в файле <code>/var/WEGA/wega-api/wegabox.php</code>)</p>
+</li>
+<li>
+<p><code>db=esp32wega</code> имя в базы данных для записи(для каждого модуля <code>ESP</code> должна быть своя база данных)</p>
+</li>
+</ul>
+<p>Это действие создаст базу даных с таблицей <code>sens</code> и внесет тестовый набор сеносоров как будто все они показывают значение единица.</p>
+<p>Войдем в интерфейс <code>WEGA</code> <code>http://ip-address-server/wega</code> выбираем <code>анализ -&gt; таблица значений</code>. </p>
+<p>Мы должны увидить запись с меткой времени и единицами в полях значений.</p>
+<p>Параметры обработки сенсоров расположены в каталоге:</p>
+<pre><code class="language-bash">#имя вашего конфиг файла и именем базы данных для вашей гидропонной системы
+cd /var/WEGA/wegagui/config
+cp example/example.conf.php esp32wega.conf.php 
+nano esp32wega.conf.php 
+</code></pre>
+<p>Если у вас больше чем один модуль <code>WEGA-ESP32</code>, то вам не обходимо создать новый конфиг файл и так для каждого модуля <code>WEGA-ESP32</code></p>
+<p>Ниже можно видеть как создать еще один конфиг файл для второго модуля <code>WEGA-ESP32</code></p>
+<pre><code class="language-bash">#имя вашего конфиг файла и именем базы данных для вашей гидропонной системы
+cd /var/WEGA/wegagui/config
+cp example/example.conf.php mainNFT.conf.php 
+nano mainNFT.conf.php 
+</code></pre>
+<hr />
+<h2 id="owm-log">Подключение погодного модуля OWM-LOG <a name="weather"></a></h2>
+<p>Он нужен для получения данных о текущей погоде и ее логирования с последующим включением в состав графиков wega.
+* Регистрируемся на сервисе и создаем api ключ на этой странице: <code>https://home.openweathermap.org/api_keys</code>
+* Найти ближайшую точку можно на карте: <code>https://openweathermap.org/weathermap</code></p>
+<h3 id="_4">Установка <a name="weather_install"></a></h3>
+<p><code>apt install curl jq</code></p>
+<ul>
+<li>Создадим скрипт загрузки погоды, незабыв указать свой город и ключ в поля <code>sity</code>, <code>apikey</code></li>
+</ul>
+<pre><code class="language-bash">nano /usr/bin/owm-log
+</code></pre>
+<ul>
+<li>Добавим</li>
+</ul>
+<pre><code class="language-bash">#!/bin/bash
+sity=&quot;Khabarovsk,ru&quot;
+apikey=&quot;XXXXXXXXXXXXX&quot;
+wegaapikey=&quot;ХХХХХХХХХХХХ&quot;
+
+curl &quot;http://api.openweathermap.org/data/2.5/weather?q=$sity&amp;appid=$apikey&quot; &gt; /run/shm/owm
+sdate=`date '+%Y-%m-%d %H:%M:%S'`
+hum=`jq -r &quot;.main.humidity&quot; /run/shm/owm`
+pressure=`jq -r &quot;.main.pressure&quot; /run/shm/owm`
+temp=`jq -r &quot;.main.temp&quot; /run/shm/owm|awk -F &quot;:&quot; '{print $1-273.15}'`
+clouds=`jq -r &quot;.clouds.all&quot; /run/shm/owm`
+
+echo &quot;$sdate;$temp;$hum;$pressure;$clouds&quot; &gt;&gt; /var/log/sensors/owm.log
+curl `echo &quot;http://127.0.0.1/wega-api/wegabox.php?db=owm&amp;auth=$wegaapikey&amp;temp=$temp&amp;hum=$hum&amp;pressure=$pressure&amp;clouds=$clouds&quot; | sed -e s/,/./g`
+
+</code></pre>
+<ul>
+<li>Делаем скрипт исполняемым и добавляем папку для логов</li>
+</ul>
+<pre><code class="language-bash">chmod +x /usr/bin/owm-log
+mkdir /var/log/sensors
+</code></pre>
+<ul>
+<li>Проверяем</li>
+</ul>
+<pre><code class="language-bash">owm-log
+cat /var/log/sensors/owm.log
+</code></pre>
+<p>Если все прошло успешно в файл запишется текущее состояние погоды</p>
+<ul>
+<li>
+<p>Назначим выполнение загрузки погоды по расписанию</p>
+</li>
+<li>
+<p>Откроем файл </p>
+</li>
+</ul>
+<pre><code class="language-bash">nano /etc/crontab
+</code></pre>
+<ul>
+<li>И добавим туда в конец строку</li>
+</ul>
+<pre><code class="language-bash">*/15 * * * * root owm-log
+</code></pre>
+<p>Раз в 15 минут файл с погодой будет пополняться.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      
+    
+  </body>
+</html>

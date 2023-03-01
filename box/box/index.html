@@ -1,0 +1,800 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../server/manual_install/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
+    
+    
+      
+        <title>Описание - WEGA-project</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.113286f1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wegabox" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="WEGA-project" class="md-header__button md-logo" aria-label="WEGA-project" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WEGA-project
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Описание
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="WEGA-project" class="md-nav__button md-logo" aria-label="WEGA-project" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
+
+    </a>
+    WEGA-project
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Описание
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          WEGA Server
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          WEGA Server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server/install/" class="md-nav__link">
+        Как настроить
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server/auto_install/" class="md-nav__link">
+        Установка через скрипт
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server/manual_install/" class="md-nav__link">
+        Ручная установка
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          WEGABOX
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          WEGABOX
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Описание
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Описание
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Минимальные требования и знания
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb-wegabox" class="md-nav__link">
+    PCB плата WEGABOX
+  </a>
+  
+    <nav class="md-nav" aria-label="PCB плата WEGABOX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Внешний вид платы
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jack" class="md-nav__link">
+    Распиновка Jack для датчиков
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Компоненты для заказа 
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wegabox_1" class="md-nav__link">
+    Скачать проект WEGABOX 
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visual-studio-code-vscode" class="md-nav__link">
+    Установка Visual Studio Code (vscode) и прошивка 
+  </a>
+  
+    <nav class="md-nav" aria-label="Установка Visual Studio Code (vscode) и прошивка ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    Шаг 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    Шаг 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    Шаг 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    Шаг 4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi" class="md-nav__link">
+    Прошивка по Wi-Fi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Где искать помощь 
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Минимальные требования и знания
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb-wegabox" class="md-nav__link">
+    PCB плата WEGABOX
+  </a>
+  
+    <nav class="md-nav" aria-label="PCB плата WEGABOX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Внешний вид платы
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jack" class="md-nav__link">
+    Распиновка Jack для датчиков
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Компоненты для заказа 
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wegabox_1" class="md-nav__link">
+    Скачать проект WEGABOX 
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visual-studio-code-vscode" class="md-nav__link">
+    Установка Visual Studio Code (vscode) и прошивка 
+  </a>
+  
+    <nav class="md-nav" aria-label="Установка Visual Studio Code (vscode) и прошивка ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    Шаг 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    Шаг 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    Шаг 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    Шаг 4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wi-fi" class="md-nav__link">
+    Прошивка по Wi-Fi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Где искать помощь 
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="wegabox">WEGABOX</h1>
+<p>Web Electronic Garden Automatic on ESP32.</p>
+<p>Телеграмм канал проекта <a href="https://t.me/esp32wega">WEGABOX</a></p>
+<p>И так, что же такое <strong>WEGABOX</strong> <a name="what_is_wegabox"></a></p>
+<p><strong>WEGABOX</strong> это система контроля и мониторинга состояния гидропонной системы, куда входят следущие возможности
+* Мониторинг <code>ЕС</code>
+* Мониторинг <code>pH</code>
+* Мониторинг <code>Температуры воздуха и раствора</code>(в баке и в корневой зоне)
+* Мониторинг <code>Влажности воздуха</code>
+* Мониторинг <code>Атмосферное давление</code>
+* Мониторинг <code>СО2</code>
+* Мониторинг <code>Освещенности</code>
+* Мониторинг <code>Уровня раствора</code>
+* Управление корневым давление(на сколько это возможно)
+* Контроль <code>ЕС</code> в рабочем баке</p>
+<p>Важно: <strong>WEGABOX</strong> не имеет смысла без <a href="https://github.com/WEGA-project/WEGA/wiki">WEGA</a> части.</p>
+<p>Так же <strong>WEGABOX</strong> является важным звеном в <a href="assets/wega-ecosystem.png">WEGA ecosystem</a></p>
+<hr />
+<h2 id="_1">Минимальные требования и знания</h2>
+<p>Для того, чтобы собрать этот <code>WEGABOX</code> необходимо:</p>
+<ul>
+<li>Минимальные знания в электронике (знать что такое <code>+</code> или <code>GND</code>)</li>
+<li>Умение читать схему, да-да, именно читать, а не разглядывать и смотреть</li>
+<li>Знание, что такое паяльник и как с ним работать</li>
+<li>Понимание как соединить три проводка в одной точке</li>
+<li>Умение собирать компоненты по схеме</li>
+<li>Знать и уметь, как прошивать ардуину и вообще знать, что это такое</li>
+<li>Минимальные знания в программировании. Мы попытались минимизировать необходимость ковыряние в коде, но все же придется изменять некоторые значения, о которых речь пойдет ниже</li>
+</ul>
+<p>Если, всего выше перечисленного или одного из выше перечисленного не знаешь, не умеешь, не понимаешь, найди человека, который соберет этот миксер за тебя.</p>
+<hr />
+<h2 id="pcb-wegabox">PCB плата WEGABOX</h2>
+<p>Для простоты сборки <code>WEGABOX</code> была разработана PCB плата, которую можно заказать и собрать самостоятельно.</p>
+<p><a href="https://oshwlab.com/siv237/esp32wega4-2_copy_copy_copy">PCB WEGABOX</a></p>
+<p>Плату можно заказать через <code>https://www.allpcb.com/</code> или любой другой сайт, на ваш вкус.</p>
+<h3 id="_2">Внешний вид платы</h3>
+<p><a href="https://user-images.githubusercontent.com/13055750/194756894-9cd8f6c9-1083-43a2-bf40-7dc877b92777.png"><img src="https://user-images.githubusercontent.com/13055750/194756894-9cd8f6c9-1083-43a2-bf40-7dc877b92777.png" width="250"></a>
+<a href="https://user-images.githubusercontent.com/13055750/194756944-268e292f-fe4b-44db-b8b0-dea410a2e2ea.png"><img src="https://user-images.githubusercontent.com/13055750/194756944-268e292f-fe4b-44db-b8b0-dea410a2e2ea.png" width="250"></a></p>
+<h3 id="jack">Распиновка Jack для датчиков</h3>
+<p><a href="../assets/jack_connections.png"><img src="../assets/jack_connections.png" width="300"></a></p>
+<hr />
+<h2 id="_3">Компоненты для заказа <a name="what_to_buy"></a></h2>
+<ol>
+<li>Плата контроллера <a href="https://www.aliexpress.com/wholesale?&amp;SearchText=ESP32-WROOM-32D+ESP32-WROOM-32U+">ESP32-WROOM-32D или ESP32-WROOM-32U</a></li>
+<li>Датчик температуры и влажности <a href="https://aliexpress.ru/wholesale?SearchText=AHT10">ATH10</a>. <a href="https://aliexpress.ru/item/4000961263862.html">Пример позиции</a></li>
+<li>Фоторезистор <a href="https://aliexpress.ru/wholesale?SearchText=GL5528">GL5528</a> для измерения света. <a href="https://aliexpress.ru/item/1125719348.html">Пример позиции</a></li>
+<li>Датчик расстояния для измерения уровня <a href="https://www.aliexpress.com/wholesale?&amp;SearchText=Ultrasonic+Ranging+Module+US-025">US-025</a></li>
+<li>Стабилизатор для питания контроллера <a href="https://aliexpress.ru/wholesale?&amp;SearchText=mini560+step+down+5V">mini560 5V</a></li>
+<li>Терморезистор 100кОм для компенсации ЕС <a href="https://www.aliexpress.com/wholesale?&amp;SearchText=Thermistor+Resistor+NTC-MF52-100K">NTC-MF52-100K</a>. <a href="https://aliexpress.ru/item/32865194243.html">Пример позиции</a></li>
+<li>Водонепроницаемый <a href="https://www.aliexpress.com/wholesale?&amp;SearchText=ds18b20+waterproof">ds18b20</a> датчик температуры корней. <a href="https://aliexpress.ru/item/32832225749.html">Пример позиции</a></li>
+<li>LM336Z-2.5 <a href="https://www.aliexpress.com/item/1005002504291644.html">Пример позиции</a></li>
+<li>ISO1540DR <a href="https://www.aliexpress.com/item/33051586046.html">Пример позиции</a></li>
+<li>MCP602-I/P <a href="https://www.aliexpress.com/item/4000014843256.html">Пример позиции</a></li>
+<li>B1205S-2W <a href="https://www.aliexpress.com/item/4000561945094.html">Пример позиции</a></li>
+<li>BNC разъем <a href="https://www.aliexpress.com/item/4000663983757.html">Пример позиции</a></li>
+<li>Блок питания 12В 2А <a href="https://www.aliexpress.com/item/32961533195.html">Пример позиции</a></li>
+<li>Набор резисторов <a href="https://www.aliexpress.com/wholesale?&amp;SearchText=Resistor+Assorted+Kit+Set+10+-1M+">Resistor Assorted Kit Set 10 -1M </a>. <a href="https://www.aliexpress.com/item/1005002275520555.html">Пример позиции</a></li>
+<li>Провода ...</li>
+</ol>
+<p>### Лист проверенных компонентов для заказа <a name="wish_list"></a>
+ Здесь вы найдете лист компонентов, которые уже заказывались ни раз, но смотрите на цены, они иногда сильно меняются.</p>
+<p><a href="https://my.aliexpress.com/wishlist/shared.htm?groupId=1000000009461501">Лист компонентов</a></p>
+<p><a href="img/wish_list.png"><img src="img/wish_list.png" width="250"></a></p>
+<hr />
+<h2 id="wegabox_1">Скачать проект WEGABOX <a name="wegabox_download"></a></h2>
+<p>Скачать проект можно несколькими путями, самый просто это скачать архив текущего <a href="https://github.com/WEGA-project/wegabox/archive/refs/heads/main.zip">репозитория</a> или со страницы <a href="https://github.com/WEGA-project/wegabox/releases">релизов</a>. Последний стабильный релиз можно найти <a href="https://github.com/WEGA-project/WEGA-Mixer/releases">здесь</a>.</p>
+<p>Нажимаем на <code>Source code(zip)</code> выбранного релиза, скачиваем. Распаковываем архив в удобное место на диске.</p>
+<p>Важно, что бы в путях до проекта не было пробелов и русских названий.</p>
+<p>Например так будет работать <code>D:\wegabox</code></p>
+<p>Так не будет работать <code>D:\Вега бокс\wegabox</code></p>
+<hr />
+<h2 id="visual-studio-code-vscode">Установка Visual Studio Code (vscode) и прошивка <a name="install"></a></h2>
+<h3 id="1">Шаг 1</h3>
+<p>Скачать и установить <a href="https://code.visualstudio.com/download">vscode</a></p>
+<p>Если у вас <code>Windows OS</code>, то скорее всего потребуется установить драйвера, которые можно скачать <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers">здесь</a></p>
+<p>В большинстве случаев подходят <a href="https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip">CP210x Universal Windows Driver</a></p>
+<h3 id="2">Шаг 2</h3>
+<p>Запускаем <code>vscode</code>  идем в <code>extensions</code> и устанавливаем <code>platformio</code>.</p>
+<p><a href="img/pio-ext.png"><img src="img/pio-ext.png" width="250"></a></p>
+<h3 id="3">Шаг 3</h3>
+<p>Открываем папку с проектом.</p>
+<p><a href="img/pio-open-project.png"><img src="img/pio-open-project.png" width="250"></a></p>
+<h3 id="4">Шаг 4</h3>
+<p>Копируем файл <code>src/pre.h.rename</code> вставляем в ту же папку и переименовываем новый файл в <code>pre.h</code>.</p>
+<p><a href="img/pio-config.png"><img src="img/pio-config.png" width="250"></a></p>
+<p>Открываем  <code>pre.h</code>.</p>
+<ul>
+<li>Обновляем <code>ssid</code> - имя вашей сети </li>
+<li>Обновляем <code>password</code> - пароль для вашего WiFi</li>
+<li>Обновляем <code>String wegaapi</code> - URL для подключения к <code>WEGA-API</code></li>
+<li>Обновляем <code>String wegaauth</code> - token для подключения к <code>WEGA-API</code></li>
+<li>Обновляем <code>String wegadb</code> - имя базы данных для хранения данных с <code>WEGABOX</code></li>
+<li>Обновляем <code>long freqdb</code> - частота отправки данных в базу в секундах</li>
+<li>Обновляем <code>#define HOSTNAME</code> - Имя системы и DDNS .local</li>
+</ul>
+<p><strong>Обновляем список датчиков, которые подключены к <code>WEGABOX</code></strong>
+- 1 значит датчик включен(подключен)
+* 0 значит датчик выключен(не подключен)
+- Пример <code>#define c_DS18B20 1</code> - Цифровой датчик температуры для шины 1-Wire</p>
+<p><strong>Что дальше</strong>
+- Сохраняем код
+- Нажимаем <code>build</code>, что бы проверить что прошивка собирается</p>
+<p><a href="img/pio-build.png"><img src="img/pio-build.png" width="250"></a></p>
+<p>Если все хорошо, то в терминале будет что-то подобное.</p>
+<p><a href="img/pio-build-success.png"><img src="img/pio-build-success.png" width="250"></a></p>
+<p>Если в терминале видим <code>SUCCESS</code> то подключаем <code>ESP32</code> через консольный кабель.</p>
+<p><a name="usb"></a></p>
+<p>Нажимаем кнопку  <code>Upload</code> и заливаем проект на <code>ESP32</code></p>
+<p><a href="img/pio-upload.png"><img src="img/pio-upload.png" width="250"></a></p>
+<p>В большинстве случаев <code>platformio</code> найдет подключеное устроиство через консольный кабель автоматически, если этого не произошло то добавляем строчку в самом низу в файле <code>platformio.ini</code> </p>
+<p>Для <code>Widows OS</code> систем
+<code>upload_port = COM[13]</code> -  после прошивки <code>ESP</code> по консольному кабелю строчку необходимо удалить.</p>
+<p>Для <code>Linux</code> и <code>MacOS</code> систем
+<code>upload_port = /dev/ttyUSB*</code> -  после прошивки <code>ESP</code> по консольному кабелю строчку необходимо удалить.</p>
+<p>Больше про настройки <code>upload_port</code> можно прочитать <a href="https://docs.platformio.org/en/latest/projectconf/section_env_upload.html#id1">здесь</a></p>
+<p>При условии, что сборка компонентов была выполнена правильно, то как только прошивка будет загружена на плату и произойдет перезагрузка на плате поднимется веб сервер. Вам необходимо найти <code>IP</code> адрес, который получил  <code>WEGABOX</code>. Это возможно сделать через веб интерфей роутера.</p>
+<p><a href="img/wegabox_server.png"><img src="img/wegabox_server.png" width="250"></a></p>
+<p><a name="ota"></a></p>
+<hr />
+<h2 id="wi-fi">Прошивка по Wi-Fi</h2>
+<p>В дальнейшем, если будет желание или необходимость перепрошивки <code>ESP</code> это можно будет сделать через Wi-Fi.</p>
+<p>Для этого нужно будет раскоментировать строчку в <code>platformio.ini</code> и указать свой <code>IP</code> адрес  <code>WEGABOX</code>.</p>
+<hr />
+<h2 id="_4">Где искать помощь <a name="help"></a></h2>
+<p>Если у вас все еще есть вопросы по настройке, заливке и гонфигурированни <code>WEGABOX</code>, 
+то их всегда можно задать в официальном телеграмм канале <a href="https://t.me/esp32wega">WEGABOX</a></p>
+<p><strong>!!! ВАЖНО !!!</strong></p>
+<p>Ответы на вопросы, а что такое плюс или GND, а как быть с проводами и так далее в телеграмм канале дававться не будут.</p>
+<p>Смотри <a href="#what_to_know">Минимальные требования и знания</a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      
+    
+  </body>
+</html>
